@@ -1,0 +1,58 @@
+h1 {
+	text-align: center;
+}
+
+.client-container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 95vw;
+	margin: 0 auto;
+	border: 1px solid black;
+	border-radius: 4px;
+	.client:nth-child(2n) {
+		background-color: lightgray;
+	}
+	.client {
+		border: 1px solid black;
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+		padding: 8px;
+	}
+	.client-icon {
+		color: #000;
+	}
+	.item {
+		width: 20%;
+	}
+}
+
+.form {
+	margin: 16px;
+	form {
+		display: flex;
+		flex-direction: column;
+		width: 50vw;
+		margin: 0 auto;
+		border: 2px solid #000;
+		border-radius: 4px;
+	}
+	input {
+		margin: 4px;
+		padding: 8px;
+	}
+	.submit {
+		width: 40%;
+		margin: 2px auto;
+	}
+}
+
+.search {
+	margin: 2px auto;
+	padding: 4px;
+	display: flex;
+	justify-content: space-around;
+	input {
+		text-align: center;
+	}
+}
